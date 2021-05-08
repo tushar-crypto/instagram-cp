@@ -3,6 +3,7 @@ import "./post.css";
 import Avatar from '@material-ui/core/Avatar';
 
 function Post(props) {
+    console.log("Props: ",props)
     return (
         <div>
             <div className = "Post__header">
